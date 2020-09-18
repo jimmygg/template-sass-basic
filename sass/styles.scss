@@ -1,8 +1,28 @@
 // Varibles
-$color: tomato;
+$color: green;
 $size: 10px;
 
 body{
 	background-color: $color;
 	margin: $size + $size;
 }
+
+.text-active{
+	color: $color;
+}
+
+// Nesting
+nav{
+	background-color: red;
+	li{
+		display: inline-block;
+	}
+	
+	a{
+		display: block;
+		padding: 6px 12px;
+		text-decoration: none;
+	}
+}
+
+
