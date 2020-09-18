@@ -1,5 +1,6 @@
 //Setting
-@import './setting';
+@import './config/setting';
+@import './config/mixin';
 
 // Partials
 @import './partial/menu';

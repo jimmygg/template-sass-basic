@@ -3,7 +3,9 @@ nav {
   nav ul {
     list-style: none; }
   nav a {
-    text-decoration: none; }
+    text-decoration: none;
+    font-size: 10px;
+    margin: 15px; }
 
 .footer p {
   font-family: "arial";
