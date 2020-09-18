@@ -1,28 +1,18 @@
-// Varibles
-$color: green;
-$size: 10px;
+//Setting
+@import './setting';
+
+// Partials
+@import './partial/menu';
+@import './partial/footer';
 
 body{
 	background-color: $color;
 	margin: $size + $size;
 }
 
-.text-active{
-	color: $color;
-}
+// .text-active{
+// 	color: $color;
+// }
 
-// Nesting
-nav{
-	background-color: red;
-	li{
-		display: inline-block;
-	}
-	
-	a{
-		display: block;
-		padding: 6px 12px;
-		text-decoration: none;
-	}
-}
 
 
