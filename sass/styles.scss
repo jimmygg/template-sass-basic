@@ -1,0 +1,8 @@
+// Varibles
+$color: tomato;
+$size: 10px;
+
+body{
+	background-color: $color;
+	margin: $size + $size;
+}
